@@ -1,33 +1,23 @@
 
-Scapegoat
+stringFormat
 =========
 
-A small library providing utility methods to `escape` and `unescape` HTML entities
+A small function that replicates the functionality of c#'s string.Format function
 
 ## Installation
 
-  npm install scapegoat --save
+  npm install stringFormat --save
 
 ## Usage
 
-  var scapegoat = require('scapegoat')
-      escape = scapegoat.escape,
-      unescape = scapegoat.unescape;
+  var sForamt = require('stringFormat')
+      sForamt.stringFormat('This is a {0} piece of {1}', 'placeholder', 'text');
 
-  var html = '<h1>Hello World</h1>',
-      escaped = escape(html),
-      unescaped = unescape(escaped);
-
-  console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
 
 ## Tests
 
-  npm test
+  grunt test
 
-## Contributing
-
-In lieu of a formal styleguide, take care to maintain the existing coding style.
-Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
