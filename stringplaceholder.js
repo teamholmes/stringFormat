@@ -6,7 +6,7 @@
  */
 module.exports = {
 
-	stringFormat : function() {
+	replacePlaceholder : function() {
 
 	var initialString = arguments[0];
 

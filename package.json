@@ -1,5 +1,5 @@
 {
-  "name": "stringFormat",
+  "name": "stringplaceholder",
   "version": "1.0.0",
   "description": "Simple pachake that emulated the c# string.format function",
   "main": "index.js",

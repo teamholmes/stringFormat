@@ -6,15 +6,15 @@ A small function that replicates the functionality of c#'s string.Format functio
 
 ## Installation
 
-  npm install stringFormat --save
+  npm install stringplaceholder --save
 
 ## Usage
 
-	var strObj = require('stringFormat/stringFormat').stringFormat;
+	var strObj = require('stringplaceholder/stringplaceholder');
 
 	var myString = "Hello there, my name is {0}, Good {1}.";
 
-	console.log(strObj(myString,'John Doe', 'morning'));
+	console.log(strObj.replacePlaceholder(myString,'Russell', 'morning'));
 
 
 ## Tests
