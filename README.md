@@ -10,7 +10,7 @@ A small function that replicates the functionality of c#'s string.Format functio
 
 ## Usage
 
-	var strObj = require('stringplaceholder/stringplaceholder');
+	var strObj = require('stringplaceholder/stringplaceholder.js');
 
 	var myString = "Hello there, my name is {0}, Good {1}.";
 
