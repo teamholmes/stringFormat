@@ -10,14 +10,17 @@ module.exports = {
 
 	var initialString = arguments[0];
 
-	var matchedArray = initialString.match(/\{\d+\}/gi);
+	var thisArguments = arguments;
 
-	for (var counter = 0, arrLength = matchedArray.length; counter < arrLength; counter++) {
+	return initialString.replace(/\{\d+\}/gi, function (match,pos) {
 
-		initialString = initialString.replace(matchedArray[counter],arguments[counter + 1]);
-	};
+		var placeholderIndex = match.replace(/(\{)|(\})/gi,'');
 
-	return initialString;
+		var argumentPosition = parseInt(placeholderIndex,10);
+
+		return thisArguments[argumentPosition + 1];
+
+	});
 
 	}
 

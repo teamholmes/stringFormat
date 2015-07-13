@@ -10,8 +10,8 @@ A small function that replicates the functionality of c#'s string.Format functio
 
 ## Usage
 
-  var sForamt = require('stringFormat')
-      sForamt.stringFormat('This is a {0} piece of {1}', 'placeholder', 'text');
+  var sFormat = require('stringFormat')
+      sFormat.stringFormat('This is a {0} piece of {1}', 'placeholder', 'text');
 
 
 ## Tests
