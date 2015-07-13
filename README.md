@@ -10,8 +10,11 @@ A small function that replicates the functionality of c#'s string.Format functio
 
 ## Usage
 
-  var sFormat = require('stringFormat')
-      sFormat.stringFormat('This is a {0} piece of {1}', 'placeholder', 'text');
+	var strObj = require('stringformat/stringFormat').stringFormat;
+
+	var myString = "Hello there, my name is {0}, Good {1}.";
+
+	console.log(strObj(myString,'John Doe', 'morning'));
 
 
 ## Tests
