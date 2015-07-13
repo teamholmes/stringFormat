@@ -1,7 +1,7 @@
 {
   "name": "stringplaceholder",
-  "version": "1.0.0",
-  "description": "Simple pachake that emulated the c# string.format function",
+  "version": "1.2.1",
+  "description": "Simple package that emulates the c# string.format function for placeholder replacement",
   "main": "index.js",
   "scripts": {
     "test": "test"
