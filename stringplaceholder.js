@@ -1,7 +1,7 @@
 /**
  * Emulates the c# string.Format function
  *
- * Example : stringFormat('This {0} should be {1}','position','replaced')
+ * Example : replacePlaceholder('This {0} should be {1}','position','replaced')
  * Returns : This position should be replaced
  */
 module.exports = {
