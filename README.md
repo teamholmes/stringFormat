@@ -10,7 +10,7 @@ A small function that replicates the functionality of c#'s string.Format functio
 
 ## Usage
 
-	var strObj = require('stringformat/stringFormat').stringFormat;
+	var strObj = require('stringFormat/stringFormat').stringFormat;
 
 	var myString = "Hello there, my name is {0}, Good {1}.";
 
